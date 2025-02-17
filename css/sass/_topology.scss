@@ -1,0 +1,94 @@
+.heading-one {
+  font-size: 45px;
+  font-weight: 700;
+
+  @include respond(tab-port) {
+    font-size: 34px;
+  }
+  @include respond(phone) {
+    font-size: 26px;
+  }
+}
+.heading-two {
+  font-size: 36px;
+  font-weight: 700;
+  @include respond(tab-port) {
+    font-size: 30px;
+  }
+  @include respond(phone) {
+    font-size: 28px;
+  }
+}
+
+.heading-three {
+  font-size: 32px;
+  font-weight: 600;
+  @include respond(tab-port) {
+    font-size: 26px;
+  }
+  @include respond(small-phone) {
+    font-size: 20px;
+  }
+}
+.heading-four {
+  font-size: 23px;
+  font-weight: 600;
+  @include respond(small-phone) {
+    font-size: 20px;
+  }
+}
+.heading-five {
+  font-size: 17px;
+  font-weight: 500;
+  @include respond(small-phone) {
+    font-size: 16px;
+  }
+}
+
+.paragraph-one {
+  font-size: 23px;
+  @include respond(phone) {
+    font-size: 17px;
+  }
+  @include respond(small-phone) {
+    font-size: 16px;
+  }
+}
+.paragraph-two {
+  font-size: 16px;
+  color: gray;
+  @include respond(phone) {
+    font-size: 15px;
+  }
+  @include respond(small-phone) {
+    font-size: 14px;
+  }
+}
+.paragraph-three {
+  font-size: 15px;
+  color: gray;
+  @include respond(phone) {
+    font-size: 15px;
+  }
+  @include respond(small-phone) {
+    font-size: 14px;
+  }
+}
+
+.color-white {
+  color: white;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-center-center-lg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include respond(tab-land) {
+    display: block;
+  }
+}
